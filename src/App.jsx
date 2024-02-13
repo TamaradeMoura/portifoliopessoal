@@ -1,3 +1,4 @@
+import Contatos from "./components/Contato"
 import Header from "./components/Header"
 import Hero from "./components/hero"
 import Projetos from "./components/Projetos"
@@ -18,6 +19,7 @@ function App() {
     <Sobre />
     <Projetos />
     <Tech />
+    <Contatos />
     </>
   )
 }

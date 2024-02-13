@@ -13,10 +13,10 @@ const Header = () => (
                 Projetos
             </li>
             <li>
-                Linguagens
+                Skills
             </li>
             <li>
-                Let´s code
+                Contatos
             </li>
         </S.Menu>
     </S.Cabecalho>

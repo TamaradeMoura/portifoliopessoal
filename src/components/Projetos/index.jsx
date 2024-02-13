@@ -5,6 +5,7 @@ import { faStar, faHouse } from '@fortawesome/free-solid-svg-icons'
 import lar from './images/larMariaSanta.jpg'
 import Disney from './images/DisneyPlus.jpg'
 import Games from './images/GamersGirl.jpg'
+import todo from './images/todo.jpg'
 
 const Projetos = () => (
     <section>
@@ -45,7 +46,8 @@ const Projetos = () => (
             <h2>Gamers Girls</h2>
             <p> 
             Foi desenvolvido um website fictício de uma loja de projetos de design de cantinhos gamers 
-            femininos, o objetivo foi a elaboração do site através do uso de bootstrap e a responsividade web.
+            femininos, um nicho pouco explorado pela área de design de interiores, o objetivo foi buscar e explorar essa temática também para meninas.
+            O site foi elaborado através do uso de bootstrap e a responsividade web.
             Utilização de Jquery para a aplicação de máscaras nos campos do formulário e validação do 
             formulário. As linguagens utilizadas foram HTML5, CSS, JavaScript e Bootstrap
             </p>
@@ -65,8 +67,8 @@ const Projetos = () => (
         <S.text>
             <h2>Disney Plus</h2>
             <p> 
-                    Landing Page clone do website Disney+, 
-                    criado com o intuito de aprimorar os conhecimentos em clean code, web responsividade e as habilidades em javascript e Css. 
+                    Landing Page clone da plataforma Disney+, desenvolvido durante o curso Engenharia Front-End da EBAC.
+                    O site foi criado com o intuito de aprimorar os conhecimentos em clean code, web responsividade e as habilidades em javascript e Css. 
                     As tecnologias utilizadas foram Html, Sass e Javascript.
             </p>
                 <S.Logos>
@@ -76,7 +78,26 @@ const Projetos = () => (
                 </S.Logos>
                 <S.Button><a href="https://clone-disneyplus-bsrk.vercel.app/" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faHouse} transform="left-5" />Visite</a></S.Button>
-                
+        </S.text>
+        </S.Proj1>
+        <S.Proj1>        
+                <img src={todo} alt="imagem to do list" />
+        <S.text>
+            <h2>Todo List</h2>
+            <p> 
+                    To do List criada no curso da EBAC, o objetivo foi aprimorar o uso do Framework ReactJs e o uso do Redux. 
+                    A lista é inteiramente dinâmica, com botões de adição de tarefas, remoção, edição e salvamento das tarefas. 
+                    As tecnologias utilizadas foram, ReactJs, Typescript, Html, styled-components e Redux.
+
+            </p>
+                <S.Logos>
+                <i className="devicon-react-original"></i>     
+                <i className="devicon-redux-original"></i>
+                <i className="devicon-typescript-plain"></i>
+                <i className="devicon-html5-plain"></i> 
+                </S.Logos>
+                <S.Button><a href="https://to-do-list-tmm.vercel.app/" target='_blank' rel="noreferrer">
+                <FontAwesomeIcon icon={faHouse} transform="left-5" />Visite</a></S.Button>
         </S.text>
         </S.Proj1>
         

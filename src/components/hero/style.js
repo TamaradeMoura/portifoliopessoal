@@ -21,7 +21,7 @@ export const HeroDiv = styled.div`
         .texto {
             position: relative;
             top: -29px;
-            left: 80px;
+            left: 45px;
             width: 200px;
         }
     }

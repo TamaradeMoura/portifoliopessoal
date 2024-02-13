@@ -80,5 +80,9 @@ export const Proj1 = styled.div`
         font-size: 30px;
         color: #fff;
         margin-top: 12px;
+         
+        i {
+            padding-left: 5px;
+         }
     `
     

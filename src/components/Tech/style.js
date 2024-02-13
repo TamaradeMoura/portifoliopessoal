@@ -22,7 +22,7 @@ export const Languages = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     
     i {
         color: #fff;
