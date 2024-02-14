@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const Cabecalho = styled.header`
     margin-top: 80px;
-
-
 `
 
 export const Menu = styled.ul`
@@ -25,5 +23,9 @@ export const Menu = styled.ul`
 
     @media(max-width: 640px) {
         margin-right: 10px;
+    }
+
+    @media (min-width: 641px) and (max-width: 1023px) {
+        margin-right: 70px;
     }
 `

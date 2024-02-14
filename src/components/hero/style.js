@@ -37,6 +37,7 @@ export const HeroDiv = styled.div`
             .texto {
                 left: 95px;
                 top: -29px;
+                width: 170px;
             }
         }
     }

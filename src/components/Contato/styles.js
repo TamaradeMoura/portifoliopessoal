@@ -6,6 +6,11 @@ export const Contents = styled.div`
     justify-content: space-evenly;
     margin-top: 5%;
     margin-bottom: 5%;
+    
+    @media(max-width: 640px) {
+        display: block; 
+    }
+
 `
 
 export const Titulo = styled.div`
@@ -29,6 +34,15 @@ export const Container = styled.div`
 
     @media(max-width: 1080px) {
         margin: 25px 100px;
+    }
+
+    @media(max-width: 640px) {
+        margin: 25px auto;
+    }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        margin-top: 25px;
+        margin-bottom: 150px;
     }
 
     h3 {
@@ -94,23 +108,28 @@ export const Links = styled.div`
     display: flex;
     margin: 0 auto;
 
+    @media(min-width: 641px) and (max-width: 1023px) {
+        margin: 0 5px;
+}
     li {
         margin-left: 10px;
         margin-bottom: 10px;
         list-style: none;
-    }
 
+    }
+    
     a {
         text-decoration: none;
         color: #000;
         font-family: 'Roboto', sans-serif;
-
+        
     }
-
+    
     i {
         font-size: 30px;
     }
-`
+    
+    `
 export const Container2 = styled.div`
 display: flex;
 flex-direction: column;
@@ -123,6 +142,13 @@ box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.30);
 @media(max-width: 1080px) {
     margin: 25px 100px;
 }
+
+@media(max-width: 640px) {
+    margin: 25px auto;
+}
+
+
+
 
 h3 {
     font-family: 'Oswald', sans-serif;

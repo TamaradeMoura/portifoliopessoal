@@ -29,4 +29,11 @@ export const Languages = styled.div`
         font-size: 50px;
         letter-spacing: 10px;
     }
+
+    @media(max-width: 640px) {
+        display: grid;
+        grid-template-columns: 200px 200px;  
+        justify-items: center;
+        row-gap: 5px;
+    }
 `

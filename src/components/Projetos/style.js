@@ -44,6 +44,15 @@ p {
 
     @media(max-width: 640px) {
         text-align: center;
+        width: 350px;
+
+        h2 {
+            margin: 0 auto ;
+        }
+
+        p {
+            text-align: center;
+        }
     }
 ` 
 
