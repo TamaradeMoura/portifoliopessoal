@@ -41,6 +41,10 @@ p {
         margin: 0 auto;
         width: 550px;
     }
+
+    @media(max-width: 640px) {
+        text-align: center;
+    }
 ` 
 
 export const Proj1 = styled.div`
@@ -56,6 +60,13 @@ export const Proj1 = styled.div`
     }
         @media(max-width: 1080px) {
             text-align: center;
+        }
+
+        @media(max-width: 640px) {
+            img {
+                width: 350px;
+                margin-left: 2px;
+            }
         }
 
     `

@@ -132,3 +132,8 @@ h3 {
 }
 
 `
+
+export const Text = styled.p`
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+`

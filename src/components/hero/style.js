@@ -3,11 +3,9 @@ import styled from "styled-components"
 
 export const HeroDiv = styled.div`
     display: block;
-    jsutify-content: left;
+    justify-content: left;
     margin-left: 15%;
     margin-top: 5%;
-
-    
 
     h1 {
         font-family: 'Oswald', sans-serif;
@@ -26,8 +24,21 @@ export const HeroDiv = styled.div`
         }
     }
 
+    
     @media(max-width: 1080px) {
         margin-left: 20%;
+    }
+    
+    @media(max-width: 640px) {
+        margin-left: 10%;
+        p {
+            margin-left: 35px;
+
+            .texto {
+                left: 95px;
+                top: -29px;
+            }
+        }
     }
 `
 

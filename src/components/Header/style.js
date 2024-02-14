@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Cabecalho = styled.header`
     margin-top: 80px;
+
+
 `
 
 export const Menu = styled.ul`
@@ -19,5 +21,9 @@ export const Menu = styled.ul`
 
     li:hover {
         color: #f368e0;
+    }
+
+    @media(max-width: 640px) {
+        margin-right: 10px;
     }
 `

@@ -11,6 +11,10 @@ export const About = styled.div`
         color: #fff;
         font-size: 30px;
     }
+
+    @media(max-width: 640px) {
+        margin-top: 55%;
+    }
     `
 
     export const Text = styled.div`
